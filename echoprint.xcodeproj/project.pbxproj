@@ -7,19 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* echoprintAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* echoprintAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		2899E5220DE3E06400AC0155 /* echoprintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* echoprintViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		28D7ACF80DDB3853001CB0EB /* echoprintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* echoprintViewController.m */; };
 		4BBDAA957F5445D8AFD0EECE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C781E7464C49138C09E899 /* libPods.a */; };
 		51F573E9187F9B4E00B85689 /* libechoprint-codegen-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F573E6187F9B2F00B85689 /* libechoprint-codegen-ios.a */; };
 		51F573EB187F9B5300B85689 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F573EA187F9B5300B85689 /* libstdc++.6.0.9.dylib */; };
 		547F808E18C76966000FEDB7 /* CodeGenWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 547F808B18C76966000FEDB7 /* CodeGenWrapper.mm */; };
-		547F808F18C76966000FEDB7 /* FPGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 547F808D18C76966000FEDB7 /* FPGenerator.m */; };
 		9AC8897513A69840002C92D4 /* MicrophoneInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8897413A69840002C92D4 /* MicrophoneInput.m */; };
 		9AC8898A13A69876002C92D4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC8898913A69876002C92D4 /* AVFoundation.framework */; };
 		9AC8899113A69880002C92D4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC8899013A69880002C92D4 /* AudioToolbox.framework */; };
@@ -29,6 +26,9 @@
 		9AC88A7313A6AD1A002C92D4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC88A7213A6AD1A002C92D4 /* CFNetwork.framework */; };
 		9AC88A7C13A6AD2F002C92D4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC88A7B13A6AD2F002C92D4 /* MobileCoreServices.framework */; };
 		9AC88A8313A6AD3A002C92D4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC88A8213A6AD3A002C92D4 /* SystemConfiguration.framework */; };
+		ABDBF07019F9C41000988463 /* echoprintAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABDBF06D19F9C41000988463 /* echoprintAppDelegate.mm */; };
+		ABDBF07119F9C41000988463 /* echoprintViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABDBF06E19F9C41000988463 /* echoprintViewController.mm */; };
+		ABDBF07219F9C41000988463 /* FPGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABDBF06F19F9C41000988463 /* FPGenerator.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,17 +49,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12C4245D36A74350A5EFE6CB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		08DEE9A5A6214096E0467A19 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* echoprintAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = echoprintAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* echoprintAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = echoprintAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* echoprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = echoprint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2899E5210DE3E06400AC0155 /* echoprintViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = echoprintViewController.xib; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		28D7ACF60DDB3853001CB0EB /* echoprintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = echoprintViewController.h; sourceTree = "<group>"; };
-		28D7ACF70DDB3853001CB0EB /* echoprintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = echoprintViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* echoprint_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = echoprint_Prefix.pch; sourceTree = "<group>"; };
 		51F573E1187F9B2F00B85689 /* echoprint-codegen-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "echoprint-codegen-ios.xcodeproj"; path = "echoprint-codegen-master/src/echoprint-codegen-ios/echoprint-codegen-ios.xcodeproj"; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 		547F808A18C76966000FEDB7 /* CodeGenWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeGenWrapper.h; sourceTree = "<group>"; };
 		547F808B18C76966000FEDB7 /* CodeGenWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CodeGenWrapper.mm; sourceTree = "<group>"; };
 		547F808C18C76966000FEDB7 /* FPGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPGenerator.h; sourceTree = "<group>"; };
-		547F808D18C76966000FEDB7 /* FPGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPGenerator.m; sourceTree = "<group>"; };
 		84C781E7464C49138C09E899 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1107310486CEB800E47090 /* echoprint-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "echoprint-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		9AC8896C13A69821002C92D4 /* Codegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Codegen.h; path = "Echoprint Headers/Codegen.h"; sourceTree = "<group>"; };
@@ -84,6 +81,10 @@
 		9AC88A7213A6AD1A002C92D4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		9AC88A7B13A6AD2F002C92D4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		9AC88A8213A6AD3A002C92D4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ABDBF06D19F9C41000988463 /* echoprintAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = echoprintAppDelegate.mm; sourceTree = "<group>"; };
+		ABDBF06E19F9C41000988463 /* echoprintViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = echoprintViewController.mm; sourceTree = "<group>"; };
+		ABDBF06F19F9C41000988463 /* FPGenerator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FPGenerator.mm; sourceTree = "<group>"; };
+		BBD2BC44A704C974FFB8D1F0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,18 +114,18 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				ABDBF06D19F9C41000988463 /* echoprintAppDelegate.mm */,
+				ABDBF06E19F9C41000988463 /* echoprintViewController.mm */,
+				ABDBF06F19F9C41000988463 /* FPGenerator.mm */,
 				547F808A18C76966000FEDB7 /* CodeGenWrapper.h */,
 				547F808B18C76966000FEDB7 /* CodeGenWrapper.mm */,
 				547F808C18C76966000FEDB7 /* FPGenerator.h */,
-				547F808D18C76966000FEDB7 /* FPGenerator.m */,
 				9AC889D013A69AD6002C92D4 /* TSLibraryImport.m */,
 				9AC889CF13A69AD0002C92D4 /* TSLibraryImport.h */,
 				9AC8897313A69840002C92D4 /* MicrophoneInput.h */,
 				9AC8897413A69840002C92D4 /* MicrophoneInput.m */,
 				1D3623240D0F684500981E51 /* echoprintAppDelegate.h */,
-				1D3623250D0F684500981E51 /* echoprintAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* echoprintViewController.h */,
-				28D7ACF70DDB3853001CB0EB /* echoprintViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -146,7 +147,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				12C4245D36A74350A5EFE6CB /* Pods.xcconfig */,
+				84A819BDBF9B2672FF637ACC /* Pods */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -200,6 +201,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		84A819BDBF9B2672FF637ACC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08DEE9A5A6214096E0467A19 /* Pods.debug.xcconfig */,
+				BBD2BC44A704C974FFB8D1F0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,8 +240,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = LBE8R7KQ3K;
+					};
+				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "echoprint" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Echoprint" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -291,7 +306,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9975339ADA1E47EFA53CE966 /* Check Pods Manifest.lock */ = {
@@ -317,12 +332,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* echoprintAppDelegate.m in Sources */,
-				28D7ACF80DDB3853001CB0EB /* echoprintViewController.m in Sources */,
+				ABDBF07019F9C41000988463 /* echoprintAppDelegate.mm in Sources */,
 				9AC8897513A69840002C92D4 /* MicrophoneInput.m in Sources */,
 				9AC889D113A69AD6002C92D4 /* TSLibraryImport.m in Sources */,
 				547F808E18C76966000FEDB7 /* CodeGenWrapper.mm in Sources */,
-				547F808F18C76966000FEDB7 /* FPGenerator.m in Sources */,
+				ABDBF07219F9C41000988463 /* FPGenerator.mm in Sources */,
+				ABDBF07119F9C41000988463 /* echoprintViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +354,7 @@
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12C4245D36A74350A5EFE6CB /* Pods.xcconfig */;
+			baseConfigurationReference = 08DEE9A5A6214096E0467A19 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -356,12 +371,13 @@
 				);
 				PRODUCT_NAME = echoprint;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12C4245D36A74350A5EFE6CB /* Pods.xcconfig */;
+			baseConfigurationReference = BBD2BC44A704C974FFB8D1F0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -376,6 +392,7 @@
 				);
 				PRODUCT_NAME = echoprint;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -383,13 +400,15 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Brian Whitman (484WPXPBPT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: varun jindal (V2Q8ZFYGCT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: varun jindal (V2Q8ZFYGCT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5D028526-5535-468F-882E-D5D8E6BE8D85";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -397,12 +416,14 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: varun jindal (V2Q8ZFYGCT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: varun jindal (V2Q8ZFYGCT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -419,7 +440,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "echoprint" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Echoprint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
